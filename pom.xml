@@ -25,6 +25,14 @@
 	    <artifactId>cucumber-testng</artifactId>
 	    <version>7.14.0</version>
 	</dependency>
+
+<!-- Source: https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+<dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.36</version>
+    <scope>compile</scope>
+</dependency>
 	
 	<!-- https://mvnrepository.com/artifact/org.testng/testng -->
 	<dependency>
