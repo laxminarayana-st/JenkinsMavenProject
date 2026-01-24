@@ -21,7 +21,7 @@ public class OrangeHRM
 			
 	@Given("i open browser with url {string}")
 	public void i_open_browser_with_url(String url) {
-	   System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+	  // System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 	   driver= new ChromeDriver();
 	   driver.manage().window().maximize();
 	   driver.get(url);
